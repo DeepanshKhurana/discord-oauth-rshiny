@@ -1,0 +1,11 @@
+app:
+  discord:
+    login_url: "https://discord.com/api/oauth2/authorize?client_id=CLIENT_ID&redirect_uri=http%3A%2F%2F127.0.0.1%3A8080%2F%23%21%2Fprocess&response_type=code&scope=identify%20guilds"
+    client_id: "CLIENT_ID"
+    client_secret: "CLIENT_SECRET"
+    grant_type: "authorization_code"
+    scope: "identity%20guilds"
+    api_url: "https://discordapp.com/api/oauth2/token"
+    users_url: "https://discordapp.com/api/users/@me"
+    redirect_uri: "http://127.0.0.1:8080/#!/process"
+
